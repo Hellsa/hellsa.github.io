@@ -5533,7 +5533,7 @@ textarea.form-control-lg {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(39, 39, 39, 0.95);
   background-clip: padding-box;
   border: 0.125rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
@@ -11465,6 +11465,7 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
@@ -11506,4 +11507,38 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  height:50vw;
+  object-fit: scale-down;
+}
+
+.slides-img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  height:50vw;
+  object-fit: scale-down;
 }
